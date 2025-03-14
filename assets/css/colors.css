@@ -1,0 +1,17 @@
+:root{
+    
+    --main-color: #1d1d1d;    
+    --main-color-link1:#eea302;
+    --main-color-link2:#e13b25;
+    --main-color-link3:#80d8da;
+    --main-color-danger: #f40612;
+    --main-color-yellow: #FFD603;
+    --main-color-white: #FFFFFF;
+    --main-color-teal: #008080;   
+    --main-color-blue: #000980;
+    --main-color-gray: gray;
+    --main-color-orange: orange;
+    --main-color-success: #2ba968;
+}
+
+
