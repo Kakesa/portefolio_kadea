@@ -403,6 +403,10 @@ img{
   padding-left: 50px;
   padding-right: 50px;
 }
+.px-70 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
 .px-100 {
   padding-right: 100px;
   padding-left: 100px;
