@@ -1,8 +1,14 @@
-footer{
-    width: 60%;
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25
 }
 
- hr {
-    border: 1px solid #1d1d1d !important;
-    margin-top: 1rem;
+.footer-position {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }

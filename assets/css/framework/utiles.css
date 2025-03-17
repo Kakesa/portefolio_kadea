@@ -409,8 +409,8 @@ img{
   padding-right: 50px;
 }
 .px-70 {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 7.7rem;
+  padding-right: 7.7rem;
 }
 .px-100 {
   padding-right: 11rem;
@@ -947,6 +947,11 @@ img{
   padding-left: var(10);
   margin-right: auto;
   margin-left: auto;
+}
+
+/* Our components */
+.gradient{
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
 @media (min-width: 576px) {

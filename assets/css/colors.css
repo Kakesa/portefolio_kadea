@@ -12,6 +12,8 @@
     --main-color-gray: gray;
     --main-color-orange: orange;
     --main-color-success: #2ba968;
+
+    --bs-border-width: 1px;/* pour le soulignement*/
 }
 
 
