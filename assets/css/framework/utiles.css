@@ -353,6 +353,11 @@ img{
   padding-bottom: 60px;
 }
 
+.py-70 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 /** padding left and right */
 .px-5 {
   padding-left: 5px;
@@ -408,8 +413,8 @@ img{
   padding-right: 70px;
 }
 .px-100 {
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 11rem;
+  padding-left: 11rem;
 }
 
 /*------------------
