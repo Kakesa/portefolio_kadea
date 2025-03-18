@@ -79,3 +79,28 @@
     font-size: 1rem;
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-session {
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+    }
+
+    .form-group.flex {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .form-group.flex .flex-1 {
+        width: 100%; 
+    }
+
+    button.link1 {
+        width: 100%; 
+    }
+}

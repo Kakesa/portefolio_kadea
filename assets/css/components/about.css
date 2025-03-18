@@ -64,6 +64,9 @@
 
 
 @media screen and (max-width: 768px) {
+    .about-me {
+        padding: 3.3rem;
+    }
     .about-me-content {
         padding: 1.3rem;
     }
