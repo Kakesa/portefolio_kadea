@@ -25,8 +25,56 @@
     </header> 
     <!-- Header end -->
     <!-- Main start -->
-    <main>
-        
+    <main class="container pt-70">
+       <section class="contact">
+    <h2 class="mb-30">Contactez-moi</h2>
+    <p class="mb-30">
+        * Vous avez une question ou vous souhaitez me contacter pour un projet ? N'hésitez pas à me laisser un message.
+    </p>
+    <div class="contact-session flex jcsb aic px-70">
+        <div class="contact-left">
+            <h4 class="mb-10">Adresse</h4>
+            <p>Av. De la Paix, 38, Kinshasa, RDC</p>
+            <h4 class="mb-10 mt-20">Email</h4>
+            <p>
+                <a href="mailto:espoirkakesa2@gmail.com">espoirkakesa2@gmail.com</a>
+            </p>
+            <h4 class="mb-10 mt-20">Téléphone</h4>
+            <p>+243 82 88 63 897</p>
+        </div>
+        <div class="contact-right">
+            <form action="" method="post" class="form-contact">
+                <div class="form-group flex gap-20">
+                    <div class="flex-1">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" class="form-control" required>
+                    </div>
+                    <div class="flex-1">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group flex gap-20 mt-20">
+                    <div class="flex-1">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="flex-1">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group mt-20">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" class="form-control" required></textarea>
+                </div>
+                <div class="form-group mt-20">
+                    <button type="submit" class="btn">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>        
     </main>
     <!-- Main end -->
     <!-- Footer start -->

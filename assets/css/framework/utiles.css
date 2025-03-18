@@ -239,7 +239,13 @@ img{
 }
 
 .pt-60 {
-  padding-top: 60px;
+  padding-top: 6rem;
+}
+.pt-70 {
+  padding-top: 7rem;
+}
+.pt-90 {
+  padding-top: 9rem;
 }
 
 /** padding bottom*/
