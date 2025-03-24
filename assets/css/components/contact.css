@@ -78,11 +78,18 @@
     border-radius: 5px;
     font-size: 1rem;
 }
+.star span,label span {
+    color: red;
+}
 /* Responsive */
 @media (max-width: 768px) {
     .contact-session {
         flex-direction: column; 
         gap: 20px;
+    }
+
+    .contact-left{
+        display: none;
     }
 
     .contact-left,
