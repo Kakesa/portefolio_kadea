@@ -1,4 +1,5 @@
-Mon Portfolio
+Introduction
+
 Ce site est conçu pour présenter mon parcours professionnel, 
 mes projets et mes coordonnées. Voici un aperçu des différentes pages :
 
@@ -16,3 +17,9 @@ Descriptions des technologies utilisées, du processus de création et des résu
 4. Contact
 Formulaire pour m'envoyer un message.
 Coordonnées professionnelles, y compris mes profils sur les réseaux sociaux et mon adresse email.
+
+
+Techno Utilisez 
+
+1. Html
+2. css
