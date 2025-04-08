@@ -43,25 +43,25 @@
 @media (max-width: 768px) {
     .project-card {
         display: flex;
-        flex-direction: column; /* Stack elements vertically */
-        gap: 20px; /* Adjust spacing between elements */
+        flex-direction: column; 
+        gap: 20px; 
     }
 
     .project-card-content {
-        order: 1; /* Title and description first */
+        order: 1; 
     }
 
     .project-card-img {
-        order: 2; /* Image second */
-        text-align: center; /* Center the image */
+        order: 2;
+        text-align: center; 
     }
 
     .project-card-img img {
-        max-width: 100%; /* Ensure the image is responsive */
+        max-width: 100%; 
         height: auto;
     }
 
     .project-card-description {
-        order: 3; /* Description last */
+        order: 3; 
     }
 }
