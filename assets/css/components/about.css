@@ -1,46 +1,46 @@
 .about-me {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
-
 
 .about-me-img img {
-    width: 80%; 
-    height: auto;
-    border-radius: 50%; 
-    margin-left: 50px; 
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-left: 7rem;
+    overflow: hidden;
 }
 
-.about-me-content h1{
+.about-me-content h1 {
     font-size: 1rem;
     font-weight: bold;
 }
 
-.about-me-content p{
+.about-me-content p {
     font-size: 1rem;
-    line-height: 1.6; 
+    line-height: 1.6;
     margin-bottom: 10px;
 }
 
-.about-me-content a{
+.about-me-content a {
     font-weight: bold;
 }
 
-.about-me-content a:hover{
+.about-me-content a:hover {
     color: var(--main-color-white);
     font-weight: bold;
 }
 
 .box {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     padding: 20px;
     border: 1px solid #1d1d1d;
     border-radius: 50%;
-    width: 70px; 
-    height: 70px; 
+    width: 70px;
+    height: 70px;
     color: var(--main-color);
 }
 
@@ -61,9 +61,11 @@
     .about-me-content {
         padding: 1.5rem;
     }
+
     .about-me-content h1 {
         font-size: 2rem;
     }
+
     .about-me-content p {
         font-size: 1.5rem;
         margin-bottom: 20px;
@@ -72,6 +74,7 @@
     .about-me-img {
         display: none;
     }
+
     .box {
         margin: 0 auto;
     }
@@ -85,20 +88,21 @@
         padding: 1.5rem;
 
     }
+
     .footer-section a {
         font-size: 1.5rem;
     }
-    
+
 }
 
 @media screen and (max-width: 780px) {
     .header {
-        margin-bottom: 3rem; 
+        margin-bottom: 3rem;
     }
 
     .about-me {
         padding: 3.3rem;
-        margin-top: 3rem; 
+        margin-top: 3rem;
     }
 
     .about-me-content {
@@ -134,12 +138,12 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        margin-bottom: 5rem; 
+        margin-bottom: 5rem;
     }
 
     .about-me {
         padding: 1.5rem;
-        margin-top: 3rem; 
+        margin-top: 3rem;
     }
 
     .about-me-content {
